@@ -1,12 +1,65 @@
-# React + Vite
+# Quote Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Quote Generator built with React that fetches quotes from an API and updates the UI dynamically. The project also allows users to share quotes on Twitter with a single click.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches random quotes from a Quotes API using Axios
+- Dynamically changes the background color of the page and buttons upon each quote request
+- Enables users to share quotes on Twitter instantly
+- Utilizes CSS Modules for styling
+- Built with Vite for fast development and optimized build
+- Deployed on Vercel for easy access
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – Frontend framework
+- **Quotes API** – Fetches random quotes
+- **Axios** – Handles API requests
+- **CSS Modules** – Scoped styling
+- **React Icons** – Provides icons for UI enhancement
+- **Vite** – Optimized development and build tool
+- **Vercel** – Deployment platform
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/quote-generator.git
+   cd quote-generator
+2. Install dependencies:
+
+	```bash 
+	npm install
+3. Start the development server:
+
+	```bash
+	npm run dev
+4. Open the app in your browser at http://localhost:5173 (or the port specified by Vite).
+
+## Usage
+
+- Click the "New Quote" button to fetch a random quote.
+
+- Each new quote request changes the background color dynamically.
+
+- Click the Twitter icon to share the current quote on Twitter.
+
+## Deployment
+
+This project is deployed on **Vercel**. You can access the live version [here](https://quote-generator.felippesantana.me/).
+
+To deploy your own version:
+
+- Push your project to a GitHub repository.
+
+- Connect the repository to Vercel.
+
+- Deploy directly from Vercel's dashboard.
+
+## License
+
+This project is open-source and available under the MIT License.
+
+Feel free to contribute, suggest improvements, or report issues! 🚀
