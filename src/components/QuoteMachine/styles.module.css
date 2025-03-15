@@ -1,0 +1,67 @@
+.container {
+	width: 100vw;
+}
+
+.quoteBox {
+	background-color: #FFFFFF;
+	padding: 40px 50px 40px 50px;
+	border-radius: 2px;
+	width: 450px;
+	margin: auto;
+	text-align: center;
+}
+
+.text {
+	font-size: 26px;
+	transition: color 500ms ease-in-out;
+	transition: opacity 500ms ease-in-out;
+}
+
+.author {
+	text-align: end;
+	font-weight: 400;
+	transition: color 500ms ease-in-out;
+	transition: opacity 500ms ease-in-out;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	border-radius: 3px;
+	color: #FFFFFF;
+	cursor: pointer;
+	transition: background-color 500ms ease-in-out;
+}
+
+.buttonsContainer {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.links {
+	display: flex;
+	gap: 5px;
+}
+
+.quoteIcon {
+	width: 24px;
+	height: 24px;
+	margin-right: 10px;
+	transition: opacity 500ms ease-in-out;
+}
+
+.icons {
+	width: 18px;
+	height: 18px;
+}
+
+.creator {
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: 300;
+	font-size: 14px;
+}
