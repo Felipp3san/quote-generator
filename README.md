@@ -26,7 +26,7 @@ A simple and interactive Quote Generator built with React that fetches quotes fr
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/quote-generator.git
+   git clone https://github.com/Felipp3san/quote-generator.git
    cd quote-generator
 2. Install dependencies:
 
